@@ -2,8 +2,10 @@ body{
     background-color: #E9E9E9;
 }
 .calculator{
-    width: 20vw;
+    position: relative;
+    width: 25vw;
     margin: 0 auto;
+    height: 20vw;
     padding: 1em 2em;
     border-radius: 30px;
     background-color: #9CD1E9;
@@ -13,11 +15,58 @@ body{
     color: white;
 }
 .inputnum{
-    width: 20vw;
+    width: 24vw;
     height: 30px;
     font-size: 20px;
     color: white;
     outline: none;
     border-radius: 5px;
     background-color: #7AA5B9;
+}
+.number{
+    position: absolute;
+    width: 9vw;
+    margin-right: 0;
+}
+.number ul{
+    padding: 0;
+    width: 20vw;
+}
+.number ul li{
+    display: inline-block;
+    width: 3.5vw;
+    list-style: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 0.5vw;
+    margin-right: 0.4vw;
+    text-align: center;
+}
+.operator{
+    position: absolute;
+    width:5vw ;
+    left: 21vw;
+}
+.operator ul{
+    padding: 0;
+    list-style: none;
+    width: 5vw;
+}
+.operator ul li{
+    display: inline-block;
+    width: 3.5vw;
+    list-style: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color:#DDDDDD;
+    margin-bottom: 0.5vw;
+    margin-right: 0.4vw;
+    text-align: center;
+}
+#yellow{
+    background-color:#FEFF77;
+}
+#red{
+    background-color: #FFA489;
 }
