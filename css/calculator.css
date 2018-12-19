@@ -1,0 +1,23 @@
+body{
+    background-color: #E9E9E9;
+}
+.calculator{
+    width: 20vw;
+    margin: 0 auto;
+    padding: 1em 2em;
+    border-radius: 30px;
+    background-color: #9CD1E9;
+}
+.title span{
+    font-size: 15px;
+    color: white;
+}
+.inputnum{
+    width: 20vw;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    background-color: #7AA5B9;
+}
